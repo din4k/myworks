@@ -1,8 +1,8 @@
 LOCAL_PATH=$$(pwd)
 LOCAL_STACK_NAME=localstack
-LOCAL_STACK_TAG=localstack/localstack:2.2.0
+LOCAL_STACK_TAG=localstack/localstack:3.3.0
 TF_NAME=terraform
-TF_TAG=local/terraform:1.5
+TF_TAG=local/terraform:1.7
 DOCKER_NETWORK_NAME=myapp
 
 build:
